@@ -1,0 +1,32 @@
+:root{
+    --bs-scroll-height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-blue{
+    background-color: #2C3E50;
+}
+
+.bg-green{
+    background-color: #1ABC9C;
+}
+
+.bg-lightblue{
+    background-color: #3A546D;
+}
+
+.row-big img{
+    width: 250px;
+}
+
+.row > div > img{
+    width: 100%;
+}
+
+h3 + p > a{
+    color: #1ABC9C;
+    text-decoration: none;
+}
